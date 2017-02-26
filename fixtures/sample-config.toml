@@ -1,0 +1,16 @@
+
+
+port = ":8080"
+
+[github]
+
+[github.hooks-to-matrix]
+name = "hooks-to-matrix"
+homeserver = "https://chat.server.org"
+secret = "$SECRET"
+rooms = [ "!roomId:server.org" ]
+username = "$USERNAME"
+password = "$PASSWORD"
+format = "Hello there :)"
+
+
